@@ -9,5 +9,5 @@ MetaGame seeks to unlock latent collaborative and organizational capital by buil
 
 __MetaGame is:__
 
-1. a _real-life_ MMO-RPG that anyone can play
+1. a _real-life_ MMO-RPG (Massively Multiplayer Online Role-Playing Game) that anyone can play
 2. a reproducible framework for _any_ community to empower collaboration and incentivize participation.
