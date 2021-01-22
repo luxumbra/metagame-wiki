@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: @luxumbra/metagame-wiki
+  repo: luxumbra/metagame-wiki
   branch: develop
   squash_merges: true
   base_url: https://metawiki.luxumbra.dev/
