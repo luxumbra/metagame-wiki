@@ -10,7 +10,7 @@ publish_mode: editorial_workflow
 media_folder: "static/img"
 public_folder: "img"
 site_url: https://metawiki.luxumbra.dev/
-logo_url: https://metawiki.luxumbra.dev//img/mg-icon.png
+logo_url: https://metawiki.luxumbra.dev/img/mg-icon.png
 collections:
   - name: "enter-metagame"
     label: "Enter Metagame"
