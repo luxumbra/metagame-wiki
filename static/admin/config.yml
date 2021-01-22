@@ -1,16 +1,16 @@
 backend:
   name: github
-  repo: MetaFam/metagame-wiki
-  branch: master
+  repo: @luxumbra/metagame-wiki
+  branch: develop
   squash_merges: true
-  base_url: https://wiki.metagame.wtf
+  base_url: https://metawiki.luxumbra.dev/
   auth_endpoint: api/auth
 
 publish_mode: editorial_workflow
 media_folder: "static/img"
 public_folder: "img"
-site_url: https://wiki.metagame.wtf
-logo_url: https://wiki.metagame.wtf/img/mg-icon.png
+site_url: https://metawiki.luxumbra.dev/
+logo_url: https://metawiki.luxumbra.dev//img/mg-icon.png
 collections:
   - name: "enter-metagame"
     label: "Enter Metagame"
