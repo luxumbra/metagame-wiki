@@ -1,7 +1,7 @@
 module.exports = {
   title: "MetaGame Wiki",
   tagline: "Build the future you want to live in.",
-  url: "http://metawiki.luxumbra.dev/",
+  url: "https://metawiki.luxumbra.dev/",
   baseUrl: "/",
   favicon: "img/mg-icon.png",
   organizationName: "MetaFam",
@@ -73,7 +73,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "http://metawiki.luxumbra.dev/admin#/?",
+          editUrl: "https://metawiki.luxumbra.dev/admin/#/?",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.scss"),

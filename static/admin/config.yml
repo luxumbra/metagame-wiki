@@ -1,16 +1,16 @@
 backend:
   name: github
-  repo: MetaFam/metagame-wiki
-  branch: master
+  repo: luxumbra/metagame-wiki
+  branch: develop
   squash_merges: true
-  base_url: https://wiki.metagame.wtf
+  base_url: https://metawiki.luxumbra.dev/
   auth_endpoint: api/auth
 
 publish_mode: editorial_workflow
 media_folder: "static/img"
 public_folder: "img"
-site_url: https://wiki.metagame.wtf
-logo_url: https://wiki.metagame.wtf/img/mg-icon.png
+site_url: https://metawiki.luxumbra.dev/
+logo_url: https://metawiki.luxumbra.dev/img/mg-icon.png
 collections:
   - name: "enter-metagame"
     label: "Enter Metagame"
@@ -18,6 +18,19 @@ collections:
     create: true
     slug: "{{slug}}"
     preview_path: "docs/enter-metagame/{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", required: false, hint: "The description of the post which will be used by search engines and link previews. If not present, will default to the first line of the post contents."}
+      - {label: "Cover Image",name: "image", widget: "image", required: false,  hint: "Cover or thumbnail image that will be used when displaying the link to the post."}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "playbooks"
+    label: "Playbooks"
+    folder: "docs/playbooks"
+    create: true
+    slug: "{{slug}}"
+    preview_path: "docs/playbooks/{{slug}}"
     editor:
       preview: false
     fields:
